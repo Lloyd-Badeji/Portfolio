@@ -1,0 +1,35 @@
+body{
+    background-color: blue;
+    text-align: center;
+}
+
+@keyframes Bature{
+    from{
+        transform: translateX(-1200px);
+    }
+      
+    to{
+        transform: translateX(0);
+    }
+}
+
+.btn{
+    width: 250px;
+    height: 40px;
+    color: azure;
+    background-color: black;
+    font-family: Vina Sans;
+    border: none;
+    border-radius: 20px;
+    animation-name: Bature;
+    animation-duration: 3s;  
+    transition-timing-function: ease-in;
+    animation-iteration-count: 5;
+    animation-direction: normal;
+    animation-delay: 4s;
+}
+
+@media only screen and (max-width:430px){
+    
+}
+

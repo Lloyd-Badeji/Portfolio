@@ -1,0 +1,34 @@
+.btn{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: brown;
+    color: white;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+li:nth-child(2n){
+    color: aqua;
+}
+
+.Transistion{
+    background-color: brown;
+    color: white;
+    transition-timing-function: ease-in-out;
+    transition-delay: 6s;
+
+}
+
+.Transistion:hover {
+    background-color: orangered;
+    width: 200vh;
+    transform: scale(3);
+
+}
+
